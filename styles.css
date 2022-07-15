@@ -1,3 +1,14 @@
+html {
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 #calcContainer {
     display: flex;
     flex-direction: column;
@@ -6,25 +17,35 @@
     background-color: gainsboro;
 }
 
-.gui {
+#gui {
     background-color: black;
     color: white;
-    width: 400px;
+    width: 430px;
     height: 50px;
     margin: 10px;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
 
 }
 
 .calcButtons {
     display: grid;
+    justify-content: center;
+    align-self: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
 }
 
 .btn {
-    height: 50px; width: 100px;
+    height: 75px; width: 100px;
     margin: 5px;
     border: solid black 1px;
+    font-family:monospace;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 .btn:hover {
