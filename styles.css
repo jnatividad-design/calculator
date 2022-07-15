@@ -17,12 +17,16 @@
 
 .calcButtons {
     display: grid;
-    grid-template-columns: 20vw auto 20vw;
-    grid-template-rows: 15vh auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
 }
 
 .btn {
     height: 50px; width: 100px;
     margin: 5px;
     border: solid black 1px;
+}
+
+.btn:hover {
+    background-color: gray; 
 }
