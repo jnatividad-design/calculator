@@ -1,0 +1,28 @@
+#calcContainer {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    background-color: gainsboro;
+}
+
+.gui {
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+
+}
+
+.calcButtons {
+    display: grid;
+    grid-template-columns: 20vw auto 20vw;
+    grid-template-rows: 15vh auto;
+}
+
+.btn {
+    height: 50px; width: 100px;
+    margin: 5px;
+    border: solid black 1px;
+}

@@ -26,3 +26,16 @@ function divide(a,b){
     let sum = (a/b)
     return sum
 }
+
+function operate(a,b,operator) {
+    switch (operator) {
+        case "+":
+      return add(a, b);
+    case "-":
+      return subtract(a, b);
+    case "*":
+      return multiply(a, b);
+    case "/":
+      return divide(a, b);
+  }
+};
