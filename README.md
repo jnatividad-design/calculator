@@ -4,4 +4,4 @@ This project is to showcase my javascript capabilities and put it into functiona
 
 It has all of the normal functionality of add,substract, multiply and divide.
 
-Live preview:
+Live preview: https://jnatividad-design.github.io/calculator/
